@@ -1,0 +1,120 @@
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h1{
+    font-size: 60px;
+    color: palevioletred;
+}
+
+p{
+    color: dimgray;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    font-size: 30px;
+    margin-left: 3%;
+    padding-left: 2%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(pink, palevioletred);
+    padding: 10px 20px;
+    border-radius: 10%;
+    color: white;
+}
+.top-background{
+    background-image: url("Images/header-bg.png");
+    
+}
+
+section{
+    height: 800px;
+    
+    padding-bottom: 250px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.biography-background{
+    background-image: url("images/biography-bg.png");
+}
+
+#resize-biography{
+    padding-top: 200px;
+}
+
+#latest-works{
+    
+    padding-bottom: 70px;
+    text-align: center;
+    
+    
+}
+
+.quarter-width{
+    width: 20%;
+    float: left;
+    margin-left: 5px;
+    padding-left: 20px;
+}
+
+.quarter-width img{
+    width: 100%;
+    padding-left: 320px;
+}
+.latest-background{
+    background-image: url("images/latest-work-bg.png");
+    height: 400px;
+    padding-top: 100px;
+    margin-top: 5px;  
+}
+
+.client-feedback{
+    text-align: center;
+    font-size: smaller;
+    padding-bottom: 10px;
+}
+
+.Ipsum-paragraph{
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+#big-button{
+    text-align: center;
+    background-image: linear-gradient(pink, palevioletred);
+    border-radius: 10px;
+    padding: 10px 10px 30px;
+    margin: 10px 10px;
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%
+
+}
+#big-link{
+text-decoration: none;
+}
+
+.footer-background{
+    background-image: url("images/footer-bg.png");
+    height: 600px;
+    padding-top: 200px;
+    margin-top: 5px;  
+}
+#paragraph-color{
+    color: black;
+}
+footer{
+    text-align: center;
+}
