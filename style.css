@@ -4,15 +4,19 @@ body{
 
 h2{
     font-size: 40px;
+    margin-top: 200px;
+    
 }
 
 h1{
     font-size: 60px;
     color: palevioletred;
+    transition: 3s;
 }
 
 p{
     color: dimgray;
+    
 }
 
 .half-width{
@@ -28,8 +32,9 @@ p{
     background-image: linear-gradient(pink, palevioletred);
     padding: 10px 20px;
     border-radius: 10%;
-    color: white;
+    color: white;    
 }
+
 .top-background{
     background-image: url("Images/header-bg.png");
     
@@ -63,14 +68,22 @@ section{
 
 .quarter-width{
     width: 20%;
+    margin-right: 20px;
+    margin-left: 20px;
     float: left;
-    margin-left: 5px;
-    padding-left: 20px;
+    margin-left: 20px;
+    padding-left: 50px; 
 }
 
 .quarter-width img{
     width: 100%;
-    padding-left: 320px;
+    padding-left: 200px;
+}
+
+
+.quarter-width :hover{
+    width: 450px;
+    transition: 2s;
 }
 .latest-background{
     background-image: url("images/latest-work-bg.png");
@@ -117,4 +130,12 @@ text-decoration: none;
 }
 footer{
     text-align: center;
+    animation-name: extra;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+
 }
+@keyframes extra {
+    from {background-color: pink;}
+    to {background-color: palevioletred;}
+  }
